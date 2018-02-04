@@ -65,7 +65,8 @@ body {
     line-height: 25px;
     color: #333333;
     overflow-x: hidden;
-    background-image: url(../images/bg/bg5.png);
+    background-color: #212121;
+    background-image: url("/images/bg/pattern.png");
     padding: 0;
 }
 
@@ -92,7 +93,7 @@ h1 {
 
 .resp-tabs-container h1 {
     font-size: 26px;
-    color: #999;
+    color: #757575;
     text-transform: inherit;
     margin-top: 0;
     margin-bottom: 15px;
@@ -114,7 +115,6 @@ h1 {
 .footer {
     margin-top: 20px;
     padding-top:5px;
-    border-top: 1px solid #839ccf;
 }
 .footer p {
     text-align: center;
@@ -140,7 +140,7 @@ a {
 }
 
 a {
-    color: #3b5998;
+    color: #86c232;
     background: transparent
 }
 
@@ -266,7 +266,7 @@ h2.resp-tab-active {
 
 h2.resp-tab-title:last-child {
     border-bottom: 12px solid #ccc !important;
-    background: blue;
+    background: #86c232;
 }
 
 /*-----------------------------------*/
@@ -469,22 +469,22 @@ p {
     line-height: 22px;
     text-align: left;
     margin: 0;
-    color: #999 !important;
+    color: #757575 !important;
     font-family: 'Lato', sans-serif;
 }
 
 .active-hi-icon {
-    background: #04B2E8 !important;
-    border: 1px solid #04B2E8 !important;
+    background: #86c232 !important;
+    border: 1px solid #86c232 !important;
 }
 
 .resp-tabs-list li:hover .hi-icon, .no-touch .hi-icon-effect-5 .hi-icon:hover {
-    background: #04B2E8;
-    border: 1px solid #04B2E8 !important;
+    background: #86c232;
+    border: 1px solid #86c232 !important;
 }
 
 h2.resp-accordion:hover .hi-icon, .no-touch .hi-icon-effect-5 .hi-icon:hover {
-    background: #04B2E8;
+    background: #86c232;
 }
 
 h2.resp-accordion:hover {
@@ -518,8 +518,8 @@ h2.resp-accordion:hover {
     font-size: 60px;
     line-height: 80px;
     opacity: 0.8;
-    background: #4477aa;
-    border: solid 3px #336699;
+    background: #86c232;
+    border: solid 3px #86c232;
     border-radius: 4px;
     box-shadow: 2px 2px 10px #333;
     text-shadow: 1px 1px 1px #666;
@@ -538,14 +538,14 @@ h2.resp-accordion:hover {
     bottom: -15px;
     border-left: 16px solid transparent;
     border-right: 16px solid transparent;
-    border-top: 16px solid #336699;
+    border-top: 16px solid #86c232;
 }
 
 .overlay_arrow.below {
     top: -15px;
     border-left: 16px solid transparent;
     border-right: 16px solid transparent;
-    border-bottom: 16px solid #336699;
+    border-bottom: 16px solid #86c232;
 }
 
 /*--------------------------------------------------
@@ -601,7 +601,7 @@ h2.resp-accordion:hover {
 #contactform p label,
 #comment_form p label {
     display: block;
-    color: #999;
+    color: #757575;
     margin-bottom: 8px;
     font-size: 13px;
 }
@@ -650,7 +650,7 @@ h2.resp-accordion:hover {
     padding: 6px;
     background-color: #f5f5f5;
     border: 1px solid #CCC;
-    color: #999;
+    color: #757575;
     border-radius: 3px;
     -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
@@ -678,7 +678,7 @@ h2.resp-accordion:hover {
 }
 
 #contact {
-    background-color: #fff;
+    background-color: #f4f4f4;
 }
 
 .resp-tabs-list li span {
@@ -725,7 +725,6 @@ h2.resp-accordion:hover {
     text-decoration: none;
     color: #fff;
     cursor: pointer;
-    background: #e05e20a8;
     margin: 2px;
 }
 
@@ -742,8 +741,6 @@ h2.resp-accordion:hover {
     display: none;
     float: left;
     overflow: hidden;
-    border: 3px solid #b34215;
-    border-radius: 5px;
     min-height: 129px;
 }
 
@@ -924,7 +921,7 @@ h2.resp-accordion:hover {
 
 .bottom-p .panel-body {
     padding: 15px;
-    color: #999 !important;
+    color: #757575 !important;
     font-size: 14px;
     font-family: 'Lato', sans-serif;
 }
@@ -1163,7 +1160,6 @@ ul.about {
     font-size: 24px;
     float: left;
     display: block;
-    color: #fff;
     -webkit-transition: all .3s ease-in;
     -moz-transition: all .3s ease-in;
     -o-transition: all .3s ease-in;
@@ -1248,6 +1244,10 @@ ul.about {
         display: none;
     }
 
+    .displayAnyTime {
+        display: block !important;
+    }
+
     #profile_desc {
         display: none;
     }
@@ -1263,6 +1263,10 @@ ul.about {
     #profile_social {
         display: none;
     }
+    .displayAnyTime {
+        display: block !important;
+    }
+
     .footer {
         display: none;
     }
@@ -1291,6 +1295,9 @@ ul.about {
     #profile_social {
         display: none;
     }
+    .displayAnyTime {
+        display: block !important;
+    }
 }
 
 @media only screen and (min-width: 550px) and (max-width: 991px) {
@@ -1310,6 +1317,10 @@ ul.about {
 
     #profile_social {
         display: none;
+    }
+
+    .displayAnyTime {
+        display: block !important;
     }
 
     .footer {
@@ -1613,7 +1624,6 @@ ul.about {
 .blog-article .info li {
     padding-left: 7px;
     padding-right: 7px;
-    border-left: 1px solid #999999;
     color: #585858;
     float: left;
     line-height: 13px;
@@ -1740,8 +1750,8 @@ a.readmore:hover, a.readmore:focus, a.readmore:active {
 a.readmore.disabled {
     cursor: default;
     background-color: #FFF !important;
-    color: #999 !important;
-    border: 1px solid #999 !important;
+    color: #757575 !important;
+    border: 1px solid #757575 !important;
 }
 
 a.readmore:visited, a.readmore {
@@ -1829,7 +1839,7 @@ ul.info-post li {
     margin: 0;
     line-height: 37px;
     text-align: center;
-    background: #da6d0d;
+    background: #86c232;
     color: #fff;
     z-index: 11;
 }
@@ -1901,7 +1911,7 @@ ul.info-post li {
     display: inline-block;
     vertical-align: middle;
     font-style: normal;
-    color: #999;
+    color: #757575;
     font-size: 11px;
     float: right;
     margin-top: 7px;
@@ -2009,7 +2019,7 @@ ul.info-post li {
 }
 
 #archive .categories .item a:hover {
-    color: #008ec3;
+    color: #86c232;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
@@ -2037,7 +2047,7 @@ ul.info-post li {
 
 .prg_content {
     background-color: #f7f7f7;
-    color: #999;
+    color: #757575;
     margin-bottom: 15px;
     margin-top: 15px;
     padding: 13px;
@@ -2063,7 +2073,7 @@ ul.info-post li {
     padding: 0;
     padding: 10px;
     background-color: #f7f7f7;
-    color: #999;
+    color: #757575;
 }
 
 #blog .post_comments .comment.sub {
@@ -2173,156 +2183,6 @@ ul.info-post li {
     font-size: 14px;
     margin-left: 20px;
     transition: color 0.2s ease 0s;
-}
-
-/*--------------------------------------------------
------------- fullscreen slide ----------------------
----------------------------------------------------*/
-
-.cb-slideshow, .cb-slideshow:after {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    z-index: 0;
-}
-
-.cb-slideshow:after {
-    content: '';
-    background: transparent url(../images/images-fullscreen/pattern.png) repeat top left;
-}
-
-.cb-slideshow li span {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    color: transparent;
-    background-size: cover;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    opacity: 0;
-    z-index: 0;
-    -webkit-backface-visibility: hidden;
-    -webkit-animation: imageAnimation 36s linear infinite 0s;
-    -moz-animation: imageAnimation 36s linear infinite 0s;
-    -o-animation: imageAnimation 36s linear infinite 0s;
-    -ms-animation: imageAnimation 36s linear infinite 0s;
-    animation: imageAnimation 36s linear infinite 0s;
-}
-
-.cb-slideshow li div {
-    z-index: 1000;
-    position: absolute;
-    bottom: 10px;
-    left: 0px;
-    width: 100%;
-    text-align: right;
-    opacity: 0;
-    -webkit-animation: titleAnimation 36s linear infinite 0s;
-    -moz-animation: titleAnimation 36s linear infinite 0s;
-    -o-animation: titleAnimation 36s linear infinite 0s;
-    -ms-animation: titleAnimation 36s linear infinite 0s;
-    animation: titleAnimation 36s linear infinite 0s;
-}
-
-.cb-slideshow li div h3 {
-    font-family: 'Lato', sans-serif;
-    font-size: 160px;
-    padding: 0 30px;
-    line-height: 120px;
-    color: rgba(169, 3, 41, 0.8);
-}
-
-.cb-slideshow li:nth-child(1) span {
-    background-image: url(../images/images-fullscreen/6.jpg)
-}
-
-.cb-slideshow li:nth-child(2) span {
-    background-image: url(../images/images-fullscreen/5.jpg);
-    -webkit-animation-delay: 6s;
-    -moz-animation-delay: 6s;
-    -o-animation-delay: 6s;
-    -ms-animation-delay: 6s;
-    animation-delay: 6s;
-}
-
-.cb-slideshow li:nth-child(3) span {
-    background-image: url(../images/images-fullscreen/4.jpg);
-    -webkit-animation-delay: 12s;
-    -moz-animation-delay: 12s;
-    -o-animation-delay: 12s;
-    -ms-animation-delay: 12s;
-    animation-delay: 12s;
-}
-
-.cb-slideshow li:nth-child(4) span {
-    background-image: url(../images/images-fullscreen/3.jpg);
-    -webkit-animation-delay: 18s;
-    -moz-animation-delay: 18s;
-    -o-animation-delay: 18s;
-    -ms-animation-delay: 18s;
-    animation-delay: 18s;
-}
-
-.cb-slideshow li:nth-child(5) span {
-    background-image: url(../images/images-fullscreen/2.jpg);
-    -webkit-animation-delay: 24s;
-    -moz-animation-delay: 24s;
-    -o-animation-delay: 24s;
-    -ms-animation-delay: 24s;
-    animation-delay: 24s;
-}
-
-.cb-slideshow li:nth-child(6) span {
-    background-image: url(../images/images-fullscreen/1.jpg);
-    -webkit-animation-delay: 30s;
-    -moz-animation-delay: 30s;
-    -o-animation-delay: 30s;
-    -ms-animation-delay: 30s;
-    animation-delay: 30s;
-}
-
-.cb-slideshow li:nth-child(2) div {
-    -webkit-animation-delay: 6s;
-    -moz-animation-delay: 6s;
-    -o-animation-delay: 6s;
-    -ms-animation-delay: 6s;
-    animation-delay: 6s;
-}
-
-.cb-slideshow li:nth-child(3) div {
-    -webkit-animation-delay: 12s;
-    -moz-animation-delay: 12s;
-    -o-animation-delay: 12s;
-    -ms-animation-delay: 12s;
-    animation-delay: 12s;
-}
-
-.cb-slideshow li:nth-child(4) div {
-    -webkit-animation-delay: 18s;
-    -moz-animation-delay: 18s;
-    -o-animation-delay: 18s;
-    -ms-animation-delay: 18s;
-    animation-delay: 18s;
-}
-
-.cb-slideshow li:nth-child(5) div {
-    -webkit-animation-delay: 24s;
-    -moz-animation-delay: 24s;
-    -o-animation-delay: 24s;
-    -ms-animation-delay: 24s;
-    animation-delay: 24s;
-}
-
-.cb-slideshow li:nth-child(6) div {
-    -webkit-animation-delay: 30s;
-    -moz-animation-delay: 30s;
-    -o-animation-delay: 30s;
-    -ms-animation-delay: 30s;
-    animation-delay: 30s;
 }
 
 @-webkit-keyframes imageAnimation {
@@ -2899,7 +2759,7 @@ select {
     z-index: 3;
     width: 100%;
     color: #394349;
-    outline: 2px solid #49aff2;
+    outline: 2px solid #86c232;
     outline: 2px solid -webkit-focus-ring-color;
     outline-offset: -2px;
 }
